@@ -7,3 +7,4 @@ for u in range(10):
             print("{}{}".format(u, v))
             continue
         print("{}{}, ".format(u, v), end="")
+        

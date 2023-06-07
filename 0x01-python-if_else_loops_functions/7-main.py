@@ -7,3 +7,4 @@ print("A is {}".format("lower" if islower("A") else "upper"))
 print("3 is {}".format("lower" if islower("3") else "upper"))
 print("g is {}".format("lower" if islower("g") else "upper"))
 print("z is {}".format("lower" if islower("z") else "upper"))
+
