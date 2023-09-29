@@ -1,17 +1,12 @@
 #!/usr/bin/python3
-""" Function that finds a peak in a list of unsorted integers. """
+""" Function that finds a peak of unsorted integers. """
 
 
 def find_peak(list_of_integers: list) -> int:
     """
     Finds a peak in a list of integers.
 
-    This function uses a divide and conquer approach to find a peak element in
-    a list of integers. A peak element is defined as an element that is greater
-    than its neighbors. The function recursively divides the list into smaller
-    sublists and checks the middle element and its neighbors to determine if it
-    is a peak. If the middle element is not a peak, the function recursively
-    searches in the direction of the larger neighbor.
+   
 
     Args:
         list_of_integers (list): A list of integers.
